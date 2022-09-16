@@ -1,5 +1,9 @@
 <template>
-    <div class="p-2">
-        <h2>Page simple</h2>
+    <div class="p-8">
+        <card />
     </div>
 </template>
+  
+<script setup lang="ts">
+import card from '../components/card.vue';
+</script>
