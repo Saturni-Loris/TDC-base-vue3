@@ -1,43 +1,36 @@
-<template>
-    <script setup lang="ts">
-        v import { ref } from "@vue/reactivity";
-
- import FicheOffreMaison from "./Fiche0OffreMaison.vue";
-v 
+<script setup lang="ts">
+import { ref } from "@vue/reactivity";
 const maison = ref({});
+</script>
 
-    </script>
+<template>
 
-    <template>
+    <div>
 
-        <div>
+        <div class="p-2">
 
-            <div class="p-2">
+            <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
 
-                <h2 class="text-2xl''>Résultat (Prévisualisation)</h2>
-                Optionnel on affiche les données
-                FicheOffreMaison v-bind=" maison" />
-            </div>
+            <FicheOffreMaison v-bind="maison" />
+        </div>
 
-            <div class="p-2">
-
-
-                <!-- On passe la "ref" à FormKit -->
-
-                <FormKit type="form" v-model="maison">
-
-                    <FormKit name="nom" label="nom" />
-
-                    <FormKit name="prix" label="prix" type="number" />
+        <div class="p-2">
 
 
-                    <FormKit name="favori" label="mettre en valeur" type="checkbox" />
+            <!-- On passe la "ref" à FormKit -->
 
-                </FormKit>
+            <FormKit type="form" v-model="maison">
 
-            </div>
+                <FormKit name="nom" label="nom" />
+
+                <FormKit name="prix" label="prix" type="number" />
+
+
+                <FormKit name="favori" label="mettre en valeur" type="checkbox" />
+
+            </FormKit>
 
         </div>
-    </template>
-    
+
+    </div>
 </template>
