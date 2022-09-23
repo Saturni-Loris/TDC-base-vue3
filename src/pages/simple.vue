@@ -19,7 +19,7 @@ const maison = {
     nbbed: "7",
     nbbath: "3",
     ville: "Mulhouse",
-    image: "../../public/Maison-classique-1-2-870x420.jpg"
+    image: "../../public/maisonasma.jpg"
 }
 const maison2 = {
     rue: "Rue de l'amour infini",

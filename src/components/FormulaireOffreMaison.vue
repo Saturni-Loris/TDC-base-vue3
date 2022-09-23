@@ -9,10 +9,10 @@ const maison = ref({});
             <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
             <FicheOffreMaison v-bind="maison" />
         </div>
-        <div class="p-2 color=text-red-600">
+        <div class="p-2 text-green-600 border-2">
             <!-- On passe la "ref" à FormKit -->
             <FormKit type="form" v-model="maison">
-                <FormKit name="nom" label="nom" />
+                <FormKit class="" name="nom" label="nom" />
                 <FormKit name="prix" label="prix" type="number" />
                 <FormKit name="favori" label="mettre en valeur" type="checkbox" />
             </FormKit>
