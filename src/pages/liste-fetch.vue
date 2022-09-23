@@ -1,5 +1,5 @@
 <script setup>
-const res = await fetch(...)
+const res = await fetch(/maisons.json)
 const posts = await res.json()
 </script>
 
