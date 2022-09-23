@@ -10,8 +10,26 @@
           <router-link class="text-red-600 underline" to="/">
             Accueil
           </router-link>
+        </li>
+
+        <li>
           <router-link class="text-red-600 underline" to="simple">
             Simple
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-red-600 underline" to="">
+            list-supabase
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-red-600 underline" to="">
+            list-fetch
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-red-600 underline" to="new">
+            New
           </router-link>
         </li>
       </ul>

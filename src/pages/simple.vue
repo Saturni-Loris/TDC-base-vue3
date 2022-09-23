@@ -1,6 +1,6 @@
 <template>
     <div class="p-3 pt-12">
-        <card v-bind="maison" />
+        <FormulaireOffreMaison />
     </div>
 
     <div class="p-3 pt-12">
@@ -10,6 +10,7 @@
   
 <script setup lang="ts">
 import card from '../components/card.vue';
+import FormulaireOffreMaison from '../components/FormulaireOffreMaison.vue';
 
 const maison = {
     rue: "Rue des pickpockets",
@@ -18,7 +19,7 @@ const maison = {
     nbbed: "7",
     nbbath: "3",
     ville: "Mulhouse",
-    image: ""
+    image: "../../public/Maison-classique-1-2-870x420.jpg"
 }
 const maison2 = {
     rue: "Rue de l'amour infini",
