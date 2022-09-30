@@ -14,7 +14,7 @@
 
         <li>
           <router-link class="text-red-600 underline" to="simple">
-            Simple
+            Formulare - Card
           </router-link>
         </li>
         <li>
@@ -28,7 +28,7 @@
           </router-link>
         </li>
         <li>
-          <router-link class="text-red-600 underline" to="new">
+          <router-link class="text-red-600 underline" to="">
             New
           </router-link>
         </li>

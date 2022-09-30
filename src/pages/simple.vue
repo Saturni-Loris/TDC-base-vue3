@@ -1,9 +1,9 @@
 <template>
-    <div class="p-3 pt-12">
+    <div class="px-32">
         <FormulaireOffreMaison />
     </div>
 
-    <div class="p-3 pt-12">
+    <div class="px-32 py-32">
         <card v-bind="maison2" />
     </div>
 </template>

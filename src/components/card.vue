@@ -10,7 +10,7 @@
   </div>
 
   <figure class="flex flex-col">
-    <img class="rounded-t-lg" src="../assets/img/pexels-binyamin-mellish-106399 1.png" alt="Image maison" />
+    <img class="rounded-t-lg" src="public/maisonasma.jpg" alt="Image maison" />
     <figcaption class="relative rounded-b-lg border-x-2 border-b-2 px-5 py-7">
       <div class="relative flex flex-col">
         <div class="order-first flex items-center pb-1">

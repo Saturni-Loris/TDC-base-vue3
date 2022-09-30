@@ -6,15 +6,17 @@ const maison = ref({});
 <template>
     <div>
         <div class="p-2">
-            <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
+            <h2 class="text-2xl">Formulaire</h2>
             <FicheOffreMaison v-bind="maison" />
         </div>
-        <div class="p-2 text-green-600 border-2">
+        <div class="p-2 text-green-600">
             <!-- On passe la "ref" à FormKit -->
             <FormKit type="form" v-model="maison">
-                <FormKit class="" name="nom" label="nom" />
-                <FormKit name="prix" label="prix" type="number" />
-                <FormKit name="favori" label="mettre en valeur" type="checkbox" />
+                <FormKit class="" name="Nom" label="nom" />
+                <hr>
+                <FormKit name="prix" label="Prix" type="number" />
+                <hr>
+                <FormKit name="favori" label="" type="checkbox" />
             </FormKit>
         </div>
     </div>
